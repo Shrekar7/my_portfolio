@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO - SHREKAR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35e37f146f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/arc.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Intrested In</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi,<br> I'm <span>Srikar</span> Reddy</h1>
+            </div>
+            <br>
+            <br>
+            <div class="sub-header">
+                <h1> - A <span>Software Developer</span> and a <span>Tech Enthusiast</span> with a
+                     keen interest <br> in building <span>web</span> and <span>mobile</span> applications</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                    <p>I'm an undergraduate student from st.Martins engineering college, 
+                    hyderabad, pursuing Bachelor's degree in computer science and engineering</p>
+                    <br>
+                    <br>
+                    <div class = "about-col-3">
+                        <h1>Skills</h1>
+                    </div> 
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Languages')">Languages</p>
+                        <p class="tab-links" onclick="opentab('Databases')">Databases</p>
+                        <p class="tab-links" onclick="opentab('Tools')">Tools</p> 
+
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="Languages">
+                        <ul>
+                            <li><span>Python</span><br></li>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span><br></li>
+                            <li><span>JAVA Script</span><br></li>
+
+                        </ul>                   
+                    </div> 
+                    <div class="tab-contents" id="Databases">
+                        <ul>
+                            <li><span>MySql</span><br></li>
+                            <li><span>Firebase</span><br></li>
+                            <li><span>Mongo DB</span><br></li>
+
+                        </ul>                   
+                    </div>
+                    <div class="tab-contents" id="Tools">
+                        <ul>
+                            <li><span>Git</span><br></li>
+                            <li><span>Github</span><br></li>
+                            <li><span>VS Vode</span><br></li>
+
+                        </ul>                   
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">Intrested In</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p>Web design refers to the design of websites that are displayed 
+                        on the internet. It usually refers to the user experience aspects 
+                        of website development rather than software development. 
+                        Web design used to be focused on designing websites for desktop 
+                        browsers; however, since the mid-2010s, design for mobile and 
+                        tablet browsers has become ever-increasingly important.
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App development</h2>
+                    <p>Mobile application development is the process of creating software applications 
+                        that run on a mobile device, such as personal digital assistants, 
+                        enterprise digital assistants or mobile phones
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>UI/UX design is a design discipline that focuses on how users 
+                        interact with a system, such as logical navigation 
+                        and smooth and intuitive user experiences.
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn more</a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container"> 
+            <h1 class="sub-tittle">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/project-1.png" >
+                    <div class="layer">
+                        <h3>Voice assistant</h3>
+                        <p>Voice assistants are intelligent software that respond to voice 
+                            commands and can run on any device</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project-2.png" >
+                    <div class="layer">
+                        <h3>face recognizer</h3>
+                        <p>Voice assistants are intelligent software that respond to voice 
+                            commands and can run on any device</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project-3.png" >
+                    <div class="layer">
+                        <h3>music app</h3>
+                        <p>Voice assistants are intelligent software that respond to voice 
+                            commands and can run on any device</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Shrekar7" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> shrekarreddy7@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-9951728407</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_.shrekar._/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">See My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet"> 
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit </button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div> 
+        <div class="copyright">
+            <p>Designed by Srikar Reddy <i class="fa-sharp fa-solid fa-ghost"></i></p>
+        </div>
+    </div>
+    
+  
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tablcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tablcontent of tablcontents){
+                tablcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+            
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById('sidemenu');
+
+        function openmenu(){
+            sidemeu.style.right="0" ;
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px" ;
+        }
+    </script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx0w2GI2NpFK2_-K4k6mEePHVtd9UedtpuwNMipd3K_f49qpF4lLnf6XR_lWD9Ik6dCSQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
